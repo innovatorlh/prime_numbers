@@ -1,0 +1,1 @@
+print([p for p in range(2,201) if not [q for q in range(2, p-1) if not p%q]])
